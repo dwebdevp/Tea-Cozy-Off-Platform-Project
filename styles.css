@@ -1,0 +1,623 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+}
+
+body {
+    background-color: black;
+    margin: 0px 0px 40px 0px ;
+    max-width: 100%;
+}
+
+p {
+    font-size: 25px;
+}
+
+figcaption {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.txt {
+    margin-top: 31px;
+}
+
+ h2 {
+    font-size: 42px;
+    text-align: center;
+ }   
+
+ h3 {
+    font-size: 38px;
+    text-align: center;
+ }
+
+ h4 {
+    font-size: 26px;
+    text-align: center;
+ }
+/* Header Start */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 100; 
+    border-bottom: 1px solid seashell;
+    max-height: 69px;
+    
+  }
+  
+.logo img {
+    max-height: 50px;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 200px;
+  }
+  
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav li {
+    margin-left: 1rem;
+    font-size: 22px;
+  }
+  
+  nav a {
+    text-decoration: underline;
+    padding: 0.5rem;
+    border-radius: 3px;
+  }
+/* Header End */
+
+.background {
+    width: 100%;
+    margin-top: 69px;
+    position:relative;
+}
+
+.background-image {
+    width: 100%;
+    margin: auto;
+    position:relative;
+}
+
+.tea {
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.tea1 {
+    margin-bottom: 0px;
+}
+
+.bi {
+    margin: auto;
+    width: 94%;
+    display: block;
+    position: relative;
+    height: 37vw;
+    object-fit: cover;
+}
+/* div class overlay */
+.overlay {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 1;
+}
+/* Next Section - tea class */
+
+.description {
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top: 5%;
+    
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    margin: 50px 16px;
+  }
+  
+  img {
+    max-width: 100%; 
+    width: 398px;
+    height: 260px;
+  }
+  
+  p {
+    margin-top: 10px; 
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    margin: 50px 16px;
+  }
+  
+  /* Locations Section */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top: 5%;
+    flex-direction: row;
+}
+
+.main-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    margin: 75px auto 20px auto;
+  }
+  
+.header {
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.background-image2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 84vh;
+    background-image: url('./images/5.Locations.jpg') ;
+    background-size: cover;
+    
+  }
+  
+.text-box-1,
+.text-box-2,
+.text-box-3 {
+    flex-basis: 30%;
+    flex-grow: 1;
+    margin: 20px;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.above-box-text {
+    position: absolute;
+    left: calc(50% - 150px); /* half of the width of text-box-2 */
+    margin-top: -400px; /* move the text 15px above text-box-2 */
+    color: #fff;
+    background-color: transparent;
+    width: 300px;
+    text-align: center;
+  }
+
+.txt3 {
+  text-align: center;
+  margin-top: 2px;
+  }
+
+.txt4 {
+    line-height: 45px;
+}
+
+.locations {
+  font-size: 44px;
+  margin:auto;
+  font-weight: bold;
+  color:#fff !important;
+  opacity: 1;
+}
+
+/* Bottom of Site */
+.details {
+  text-align: center;
+  }
+
+.txt2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin: 25px auto 50px auto;
+  }
+
+.footer {
+  text-align: left;
+  margin-left: 20px;
+  }
+  
+  /*MEDIA QUERIES*/
+/* Smallish screens (mobile+tab) */
+  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait)  {
+    body {
+        margin: 0px;
+
+    }
+  }
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait) {
+    .txt3 {
+        font-size: 11px;
+    }
+  }
+  
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+    .above-box-text, .locations{
+        font-size: 18px;
+        margin-top: -82px;
+    }
+  }
+
+  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+    .background-image2{
+         height: 34vh;
+    }
+  }
+
+ @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait) {
+    .footer{
+        font-size: 11px;
+        margin-left: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait) {
+    .txt2 {
+        font-size: 22px;
+        margin: 19px auto 24px auto;
+    }
+  }
+
+  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait)  {
+    .txt4 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+  }
+
+  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+  
+  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+    .description {
+        font-size: 18px;
+    }
+  }
+
+  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+    h2 {
+        font-size: 18px;
+        margin: 0px;
+        padding: 5px;
+    }
+  }
+  
+  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+    h4 {
+        font-size: 12px;
+        margin: 0px;
+        padding: 5px;
+    }
+  }
+  
+  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+   .overlay {
+        text-align: center;
+        margin:auto;
+    }
+  }
+
+  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+    .tea {
+        margin-top: 40px;
+     }
+   }
+
+   @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+    .tea-minus1 {
+        font-size: 20px;
+     }
+   }
+  
+   @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+    .logo img {
+        width: 93px;
+        max-height: 27px;
+        margin-left: 1px;
+
+     }
+   }
+
+   @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+    nav ul li {
+        font-size: 15px;
+        margin: 0px;
+     }
+   }
+
+   @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+    .background {
+           margin-top: 60px;
+     }
+   }
+/* Medium screens (tablet) */
+
+@media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait)  {
+    body {
+        margin: 0px;
+   }
+  }
+
+@media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait) {
+    .txt3 {
+        font-size: 11px;
+    }
+  }
+  
+@media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+    .above-box-text, .locations{
+        font-size: 18px;
+        margin-top: -82px;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+    .background-image2{
+         height: 34vh;
+    }
+  }
+
+ @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait) {
+    .footer{
+        font-size: 11px;
+        margin-left: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait) {
+    .txt2 {
+        font-size: 22px;
+        margin: 19px auto 24px auto;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait)  {
+    .txt4 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+    .description {
+        font-size: 18px;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+    h2 {
+        font-size: 18px;
+        margin: 0px;
+        padding: 5px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+    h4 {
+        font-size: 12px;
+        margin: 0px;
+        padding: 5px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+   .overlay {
+        text-align: center;
+        margin:auto;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+    .tea {
+        margin-top: 40px;
+     }
+   }
+
+   @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+    .tea-minus1 {
+        font-size: 20px;
+     }
+   }
+  
+   @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+    .logo img {
+        width: 93px;
+        max-height: 27px;
+        margin-left: 1px;
+
+     }
+   }
+
+   @media only screen and (min-width: 601px) and (max-width: 900px) and (orientation: portrait){
+    nav ul li {
+        font-size: 15px;
+        margin: 0px;
+     }
+   }
+
+   @media only screen and (min-width: 601px) and (max-width: 900px) and (orientation: portrait){
+    .background {
+           margin-top: 60px;
+     }
+   }
+
+/* + 881px - 1226px  */
+@media only screen and (min-width: 881px) and (max-width: 1226px) and (orientation: portrait)  {
+    body {
+        margin: 0px;
+   }
+}
+
+@media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait) {
+    .txt3 {
+        font-size: 11px;
+    }
+  }
+  
+@media only screen and (min-width: 881px) and (max-width: 1226px) and (orientation: portrait){
+    .above-box-text, .locations{
+        font-size: 18px;
+        margin-top: -82px;
+    }
+  }
+
+  @media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait){
+    .background-image2{
+         height: 34vh;
+    }
+  }
+
+ @media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait) {
+    .footer{
+        font-size: 7px;
+        margin-left: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait) {
+    .txt2 {
+        font-size: 22px;
+        margin: 19px auto 24px auto;
+    }
+  }
+
+  @media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait)  {
+    .txt4 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+  }
+
+  @media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+  
+  @media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait){
+    .description {
+        font-size: 18px;
+    }
+  }
+
+  @media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait){
+    h2 {
+        font-size: 18px;
+        margin: 0px;
+        padding: 5px;
+    }
+  }
+  
+  @media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait){
+    h4 {
+        font-size: 12px;
+        margin: 0px;
+        padding: 5px;
+    }
+  }
+  
+  @media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait){
+   .overlay {
+        text-align: center;
+        margin:auto;
+    }
+  }
+
+  @media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait){
+    .tea {
+        margin-top: 40px;
+     }
+   }
+
+   @media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait){
+    .tea-minus1 {
+        font-size: 20px;
+     }
+   }
+  
+   @media only screen and (min-width: 881px)and (max-width: 1226px)  and (orientation: portrait){
+    .logo img {
+        width: 93px;
+        max-height: 27px;
+        margin-left: 1px;
+
+     }
+   }
+
+   @media only screen and (min-width: 881px)and (max-width: 1226px)  and (orientation: portrait){
+    nav ul li {
+        font-size: 15px;
+        margin: 0px;
+     }
+   }
+
+   @media only screen and (min-width: 881px) and (max-width: 1226px)  and (orientation: portrait){
+    .background {
+           margin-top: 60px;
+     }
+   }
+
+
+
+
+
+/*
+   Medium screens (tablet) 
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+     Your CSS rules here 
+  }
+  
+   Large screens (desktop) 
+  @media only screen and (min-width: 901px) {
+     Your CSS rules here 
+  }
+  */
