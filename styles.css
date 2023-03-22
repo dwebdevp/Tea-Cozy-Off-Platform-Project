@@ -194,7 +194,7 @@ nav li {
     align-items: center;
     justify-content: space-between;
     height: 84vh;
-    background-image: url('./images/5.Locations.jpg') ;
+    background-image: url('images/5.Locations.jpg') ;
     background-size: cover;
     
   }
