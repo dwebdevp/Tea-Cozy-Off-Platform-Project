@@ -418,9 +418,173 @@ nav li {
       background-color: rgba(0, 0, 0, 1);
    }
 }
+/* Medium screens Landscape */
 
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape)  {
+  header {
+    padding: 2px;
 
-  /* Small Screens Portrait*/
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape)  {
+  body {
+      margin: 0px;
+
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape){
+  .txt3 {
+      font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
+  .above-box-text, .locations{
+      font-size: 18px;
+      margin-top: -65px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape)  {
+  .background-image2{
+       height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape)  {
+  .footer{
+      font-size: 8px;
+      margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape)   {
+  .txt2 {
+      font-size: 16px;
+      margin: 19px auto 24px auto;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape)   {
+  .txt4 {
+      font-size: 9px;
+      line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
+  .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
+  .description {
+      font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
+  h2 {
+      font-size: 18px;
+      margin: 0px;
+      padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
+  h4 {
+      font-size: 11px;
+      margin: 0px;
+      padding: 5px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape)  {
+ .overlay {
+      text-align: center;
+      margin:auto;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
+  .tea {
+      margin-top: 40px;
+   }
+ }
+
+ @media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
+  .tea1 {
+     font-size: 18px;
+     margin-top: 10px;
+   }
+ }
+
+ @media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
+  .tea-minus1 {
+      font-size: 25px;
+   }
+ }
+
+ @media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape)  {
+  .logo img {
+      width: 63px;
+      max-height: 17px;
+      margin-left: 1px;
+
+   }
+ }
+
+ @media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
+  nav ul li {
+      font-size: 8px;
+      margin: 0px;
+   }
+ }
+
+ @media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape){
+  .background {
+         margin-top: 22px;
+   }
+ }
+
+ @media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
+  .text-box-1 {
+      flex-basis: 100%;
+      flex-grow: 1;
+      margin: 5px;
+      padding: 20px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 1);
+   }
+}
+
+ @media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
+  .text-box-2 {
+      flex-basis: 100%;
+      flex-grow: 1;
+      margin: 5px;
+      padding: 20px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 1);
+   }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
+.text-box-3 {
+    flex-basis: 100%;
+    flex-grow: 1;
+    margin: 5px;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 1);
+ }
+}
+
+/* Small Screens Portrait*/
   @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait)  {
     header {
       padding: 2px;
@@ -991,4 +1155,3 @@ nav li {
            margin-top: 60px;
      }
    }
-
