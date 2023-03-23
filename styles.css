@@ -194,7 +194,7 @@ nav li {
     align-items: center;
     justify-content: space-between;
     height: 84vh;
-    background-image: url('images/5.Locations.jpg') ;
+    background-image: url('./images/5.Locations.jpg') ;
     background-size: cover;
     
   }
@@ -254,185 +254,370 @@ nav li {
   }
   
   /*MEDIA QUERIES*/
-/* Smallish screens (mobile+tab) */
-  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait)  {
+  /* Small Screens */
+  @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait)  {
     body {
         margin: 0px;
 
     }
   }
 
-@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait) {
+@media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait) {
     .txt3 {
-        font-size: 11px;
+        font-size: 8px;
     }
   }
   
-@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+@media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
     .above-box-text, .locations{
         font-size: 18px;
         margin-top: -82px;
     }
   }
 
-  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
     .background-image2{
          height: 34vh;
     }
   }
 
- @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait) {
+ @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait) {
     .footer{
-        font-size: 11px;
+        font-size: 8px;
         margin-left: 10px;
     }
   }
 
-  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait) {
+  @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait) {
     .txt2 {
-        font-size: 22px;
+        font-size: 16px;
         margin: 19px auto 24px auto;
     }
   }
 
-  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait)  {
+  @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait)  {
     .txt4 {
-        font-size: 15px;
+        font-size: 9px;
         line-height: 25px;
     }
   }
 
-  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait) {
+  @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait) {
     .flex-container {
         display: flex;
         flex-wrap: wrap;
     }
   }
   
-  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
     .description {
         font-size: 18px;
     }
   }
 
-  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
     h2 {
-        font-size: 18px;
+        font-size: 10px;
         margin: 0px;
-        padding: 5px;
+        padding: 0px;
     }
   }
   
-  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
     h4 {
-        font-size: 12px;
+        font-size: 6px;
         margin: 0px;
         padding: 5px;
     }
   }
   
-  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
    .overlay {
         text-align: center;
         margin:auto;
     }
   }
 
-  @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
     .tea {
         margin-top: 40px;
      }
    }
 
-   @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+   @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
     .tea-minus1 {
         font-size: 20px;
      }
    }
   
-   @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+   @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
     .logo img {
-        width: 93px;
+        width: 73px;
         max-height: 27px;
         margin-left: 1px;
 
      }
    }
 
-   @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+   @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
     nav ul li {
-        font-size: 15px;
+        font-size: 8px;
         margin: 0px;
      }
    }
 
-   @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+   @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
     .background {
            margin-top: 60px;
      }
    }
-/* Medium screens (tablet) */
 
-@media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait)  {
+   @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
+    .text-box-1 {
+        flex-basis: 100%;
+        flex-grow: 1;
+        margin: 5px;
+        padding: 20px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 1);
+     }
+}
+
+   @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
+    .text-box-2 {
+        flex-basis: 100%;
+        flex-grow: 1;
+        margin: 5px;
+        padding: 20px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 1);
+     }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait){
+  .text-box-3 {
+      flex-basis: 100%;
+      flex-grow: 1;
+      margin: 5px;
+      padding: 20px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 1);
+   }
+}
+   
+/* Smallish screens (mobile+tab) 420-600px */
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait)  {
+  body {
+      margin: 0px;
+
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait) {
+  .txt3 {
+      font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  .above-box-text, .locations{
+      font-size: 18px;
+      margin-top: -82px;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  .background-image2{
+       height: 34vh;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait) {
+  .footer{
+      font-size: 11px;
+      margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait) {
+  .txt2 {
+      font-size: 22px;
+      margin: 19px auto 24px auto;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait)  {
+  .txt4 {
+      font-size: 15px;
+      line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait) {
+  .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  .description {
+      font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  h2 {
+      font-size: 13px;
+      margin: 0px;
+      padding: 5px;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  h4 {
+      font-size: 9px;
+      margin: 0px;
+      padding: 5px;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+ .overlay {
+      text-align: center;
+      margin:auto;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  .tea {
+      margin-top: 40px;
+   }
+ }
+
+ @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  .tea-minus1 {
+      font-size: 20px;
+   }
+ }
+
+ @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  .logo img {
+      width: 93px;
+      max-height: 27px;
+      margin-left: 1px;
+
+   }
+ }
+
+ @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  nav ul li {
+      font-size: 10px;
+      margin: 0px;
+   }
+ }
+
+ @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  .background {
+         margin-top: 60px;
+   }
+ }
+
+ @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  .text-box-1 {
+      flex-basis: 100%;
+      flex-grow: 1;
+      margin: 5px;
+      padding: 20px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 1);
+   }
+}
+
+ @media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+  .text-box-2 {
+      flex-basis: 100%;
+      flex-grow: 1;
+      margin: 5px;
+      padding: 20px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 1);
+   }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) and (orientation: portrait){
+.text-box-3 {
+    flex-basis: 100%;
+    flex-grow: 1;
+    margin: 5px;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 1);
+ }
+}
+
+/* Medium screens (tablet) 601-880*/
+
+@media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait)  {
     body {
         margin: 0px;
    }
   }
 
-@media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait) {
+@media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait) {
     .txt3 {
         font-size: 11px;
     }
   }
   
-@media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+@media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait){
     .above-box-text, .locations{
         font-size: 18px;
         margin-top: -82px;
     }
   }
 
-  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+  @media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait){
     .background-image2{
          height: 34vh;
     }
   }
 
- @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait) {
+ @media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait) {
     .footer{
         font-size: 11px;
         margin-left: 10px;
     }
   }
 
-  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait) {
+  @media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait) {
     .txt2 {
         font-size: 22px;
         margin: 19px auto 24px auto;
     }
   }
 
-  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait)  {
+  @media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait)  {
     .txt4 {
         font-size: 15px;
         line-height: 25px;
     }
   }
 
-  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait) {
+  @media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait) {
     .flex-container {
         display: flex;
         flex-wrap: wrap;
     }
   }
   
-  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+  @media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait){
     .description {
         font-size: 18px;
     }
   }
 
-  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+  @media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait){
     h2 {
         font-size: 18px;
         margin: 0px;
@@ -440,7 +625,7 @@ nav li {
     }
   }
   
-  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+  @media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait){
     h4 {
         font-size: 12px;
         margin: 0px;
@@ -448,26 +633,26 @@ nav li {
     }
   }
   
-  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+  @media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait){
    .overlay {
         text-align: center;
         margin:auto;
     }
   }
 
-  @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+@media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait){
     .tea {
         margin-top: 40px;
      }
    }
 
-   @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+@media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait){
     .tea-minus1 {
         font-size: 20px;
      }
    }
   
-   @media only screen and (min-width: 601px) and (max-width: 863px) and (orientation: portrait){
+@media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait){
     .logo img {
         width: 93px;
         max-height: 27px;
@@ -476,14 +661,14 @@ nav li {
      }
    }
 
-   @media only screen and (min-width: 601px) and (max-width: 900px) and (orientation: portrait){
+@media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait){
     nav ul li {
         font-size: 15px;
         margin: 0px;
      }
    }
 
-   @media only screen and (min-width: 601px) and (max-width: 900px) and (orientation: portrait){
+@media only screen and (min-width: 601px) and (max-width: 880px) and (orientation: portrait){
     .background {
            margin-top: 60px;
      }
@@ -589,7 +774,6 @@ nav li {
         width: 93px;
         max-height: 27px;
         margin-left: 1px;
-
      }
    }
 
@@ -605,19 +789,3 @@ nav li {
            margin-top: 60px;
      }
    }
-
-
-
-
-
-/*
-   Medium screens (tablet) 
-  @media only screen and (min-width: 601px) and (max-width: 900px) {
-     Your CSS rules here 
-  }
-  
-   Large screens (desktop) 
-  @media only screen and (min-width: 901px) {
-     Your CSS rules here 
-  }
-  */
