@@ -420,7 +420,7 @@ nav li {
 }
 
 
-  /* Small Screens Portrait */
+  /* Small Screens Portrait*/
   @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait)  {
     header {
       padding: 2px;
@@ -462,7 +462,8 @@ nav li {
 
   @media only screen and (min-width: 300px) and (max-width: 419px) and (orientation: portrait)  {
     .berry{
-         height: 34vh;
+         height: 35vh;
+         width: 60vw;
     }
   }
 
